@@ -1,0 +1,3 @@
+pip install git+https://github.com/flasgger/flasgger.git
+alembic revision --autogenerate -m "Initial schema"
+alembic upgrade head
